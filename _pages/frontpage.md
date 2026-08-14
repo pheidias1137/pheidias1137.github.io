@@ -1,26 +1,49 @@
 ---
 permalink: /
-layout: home
-title: Welcome
-list_title: My blog posts
+layout: default
 ---
 
-This is a template and some instructions for running Github Pages with the [`minima` theme][minima]. This repo has what I consider the minimum pieces for a personal blog using [Jekyll][jk] and [Github Pages][gh-site].
+<div class="profile">
 
-Check out the excellent [`minima` theme][minima] documentation for further details and customization and the [official docs][gh] for more details on how Github Pages work.
+  <img class="profile-photo" src="/assets/imgs/profile.jpg" alt="Mihica Khare">
 
-Do you have questions? feel free to [open an issue][issue] or find out how toreach me from my [contact page][contact].
+  <div class="social-links">
+    <a href="https://github.com/pheidias1137">GitHub</a>
+    <a href="https://www.linkedin.com/in/mihica-khare-440079312/">LinkedIn</a>
+  </div>
 
-<img src="./assets/imgs/screenshot.png" width="400px">
+  <div class="intro">
+    <p>
+      Hi, I'm Mihica Khare.
+    </p>
 
-For more details about how this example site works checkout [the github project](https://github.com/jsanz/gh-pages-minima-starter).
+    <p>
+      I'm interested in tech and anything which intrigues me
+    </p>
+  </div>
 
+</div>
 
-Have a great day!!
+<section class="homepage-section">
+  <h1>Blog</h1>
 
-[gh-site]: https://pages.github.com/
-[minima]: https://github.com/jekyll/minima/tree/2.5-stable
-[jk]: https://jekyllrb.com/
-[gh]: https://help.github.com/en/github/working-with-github-pages
-[issue]: https://github.com/jsanz/gh-pages-minima-starter/issues/new/choose
-[contact]: https://jorgesanz.net/contact/
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts limit:5 %}
+      <article class="post-preview">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="post-date">
+          {{ post.date | date: "%d-%m-%Y" }}
+        </p>
+
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  {% else %}
+    <p>Nothing here yet. Check back soon.</p>
+  {% endif %}
+</section>
