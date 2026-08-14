@@ -1,9 +1,13 @@
 ---
-permalink: /about
-layout: page
-title: About me
+layout: default
+title: About
+permalink: /about/
 ---
 
-More details about me on this page with links to my social media profiles and so on.
+# About
 
-![](https://www.jorgesanz.net/assets/imgs/me/jsanz_small4.png)
+Hi, I'm Mihica Khare.
+
+This is my personal website — a place for my writing, projects, books, and things I'm interested in.
+
+More about me coming soon.
