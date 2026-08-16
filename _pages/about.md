@@ -6,8 +6,8 @@ permalink: /about/
 
 # About
 
-Hi, I'm Mihica Khare.
-
-This is my personal website — a place for my writing, projects, books, and things I'm interested in.
-
-More about me coming soon.
+This is my little corner of the internet. 
+I work as a Software Engineer in Dassault Systemes currently. 
+Some of my interests are motorsports, high-power rocketry, economics & recreational mathematics. 
+Reading is one of the ways I keep myself sane these days. More about that can be found in the Bookshelf Section 
+I am an aspiring generalist; I think there is more to people's professional lives than being pigeon-holed into one thing 
