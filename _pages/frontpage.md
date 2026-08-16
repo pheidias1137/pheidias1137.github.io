@@ -14,11 +14,11 @@ layout: default
 
   <div class="intro">
     <p>
-      Hi, I'm Mihica Khare.
+      Greetings, this is Mihica
     </p>
 
     <p>
-      I'm interested in tech and anything which intrigues me
+      I write & opine about tech and other things which I find interesting
     </p>
   </div>
 
