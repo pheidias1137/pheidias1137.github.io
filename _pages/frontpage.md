@@ -14,7 +14,7 @@ layout: default
 
   <div class="intro">
     <p>
-      Greetings, this is Mihica
+      hello, this is mihica
     </p>
 
     <p>
