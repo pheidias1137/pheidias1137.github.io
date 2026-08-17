@@ -1,5 +1,4 @@
 title: mihica khare
-description: blog & all that
 author: "Mihica Khare"
 
 theme: minima
@@ -10,7 +9,7 @@ repository: pheidias1137/pheidias1137.github.io
 # Minima social links
 github_username: pheidias1137
 linkedin_username: mihica-khare-440079312
-rss: rss
+gmail_username : kharemihica@gmail.com
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
