@@ -1,6 +1,6 @@
 ---
-title: "Tutorial I: my first post"
-date: 2020-03-18
+title: "OpenFOAM as a dev"
+date: 2026-03-18
 layout: post
 ---
 
