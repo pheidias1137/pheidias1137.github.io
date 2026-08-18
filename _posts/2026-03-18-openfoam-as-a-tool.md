@@ -1,5 +1,5 @@
 ---
-title: "OpenFOAM as a dev"
+title: "OpenFOAM as a tool"
 date: 2026-03-18
 layout: post
 ---
